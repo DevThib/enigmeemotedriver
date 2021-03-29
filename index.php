@@ -89,4 +89,4 @@
 </html>
 <?php 
 $prout = "ng";
-echo $ng; ?>
+echo $prout; ?>
