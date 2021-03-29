@@ -4,43 +4,44 @@
     <head>
 
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="Style.css">
-    <title>Congo - connexion</title>
+    <link rel="stylesheet" href="inscript.css">
+    <title>Congo Panel - inscription</title>
+
     </head>
     <body>
-
+        
+       
         <header class="header1">
 
             <div>
-              <h1 class="title">Panel Congo</h1>
-              <h4 class="title">Connexion</h4>
-            
+              <h1 class="title">Congo</h1>
+              <h4 class="title">Création de compte</h4>
            </div>
 
         </header>
+
 
          <div class="connexion">
 
             <div class="formulaire">
 
                 <div class="titre">
-                        <h3>Connexion Congo</h3>
+                        <h3>Inscription à Neverland</h3>
                 </div>
-                <!-- <div class="pseudo">
+                
+                 <form action="InscriptionCible.php" method="post">
+                   <p>
+                       
+                <div class="pseudo">
 
                     <p>Pseudo</p>
 
                     <div class="input">
                         <img src="https://th.bing.com/th/id/OIP.6UvxQ_kPkwBV-zerxDw2nQHaHa?pid=Api&w=512&h=512&rs=1" alt="erreur d'image">
-                        <input type="text" placeholder="Pseudo">
+                        <input type="text" placeholder="Pseudo" name="pseudo" required >
                     </div>
                     
-                </div> -->
-                
-                <form action="cible.php" method="post">
-                   <p>
-              
-
+                </div>
                 <div class="email">
 
                     <p>Email</p>
@@ -59,29 +60,31 @@
                     </div>
 
                 </div>
-
                 <div class="con">
-                    <input class="conn" type="submit" value="Valider"/>
+                    <input class="conn" type="submit" value="Valider" />
                 </div>
-
-                <div class="register">
-
-                    <p>Pas de compte ? <a href="inscription.php" class="f">Inscrivez vous !</a><p>
-
-
+                     
+                <div class="compte">
+                    <p>Dejà un compte ? <a href="index.php" class="f"> Connexion !</a><p>
                 </div>
-                    
-               </p>
-             </form>
-
-
-
 
         </div>
 
-         </div>
-
         
+
+
+         </div>
+        
+                       
+       </p>
+      </form>
+
+
+
+         
+
+
+
 
     </body>
 
