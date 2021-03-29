@@ -87,6 +87,3 @@
 
 
 </html>
-<?php 
-$prout = "ng";
-echo $prout; ?>
