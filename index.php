@@ -81,9 +81,19 @@
 
          </div>
 
-        
+    <button>test</button>
 
     </body>
 
 
 </html>
+
+<?php 
+
+    if(isset($_POST['pseudo'])){
+        echo "pseudo" $_POST['pseudo'];
+    }
+
+
+
+?>
